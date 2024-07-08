@@ -22,7 +22,7 @@ function sortear() {
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados: ${sorteados} </label>`
     alterarStatusBotao();
 
-}
+
 
 function obterNumeroAleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
